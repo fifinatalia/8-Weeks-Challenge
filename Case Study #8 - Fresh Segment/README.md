@@ -2,49 +2,34 @@
 
 **8 Week SQL Challenge From Data With Danny**
 
-<image src="https://user-images.githubusercontent.com/106369674/204489828-a8eb9a52-2cd3-44cd-a9f5-3550b7fb78f8.png" width = 500>
+<image src="https://user-images.githubusercontent.com/106369674/215382309-03e6296b-1ec0-4c1b-b1ad-66a9907787d0.png" width=500>
 
   
 ## **Problem Statement**
 
-Clique Bait is not like your regular online seafood store - the founder and CEO Danny, was also a part of a digital data analytics team and wanted to expand his knowledge into the seafood industry!
+Danny created Fresh Segments, a digital marketing agency that helps other businesses analyse trends in online ad click behaviour for their unique customer base.
+
+Clients share their customer lists with the Fresh Segments team who then aggregate interest metrics and generate a single dataset worth of metrics for further analysis.
 
 ## **Entity Relationship Diagram**
 
 ![Untitled](https://user-images.githubusercontent.com/106369674/204490975-04132282-9fe8-4051-9fdd-c7db09844894.png)
 
 
-## A. Digital Analysis
+## Data Exploration and Cleansing
 
-Using the available datasets - answer the following questions using a single query for each one:
+1. Update the fresh_segments.interest_metrics table by modifying the month_year column to be a date data type with the start of the month
+2. What is count of records in the fresh_segments.interest_metrics for each month_year value sorted in chronological order (earliest to latest) with the null values appearing first?
+3. What do you think we should do with these null values in the fresh_segments.interest_metrics
+4. How many interest_id values exist in the fresh_segments.interest_metrics table but not in the fresh_segments.interest_map table? What about the other way around?
+5. Summarise the id values in the fresh_segments.interest_map by its total record count in this table
+6. What sort of table join should we perform for our analysis and why? Check your logic by checking the rows where interest_id = 21246 in your joined output and include all columns from fresh_segments.interest_metrics and all columns from fresh_segments.interest_map except from the id column.
+7. Are there any records in your joined table where the month_year value is before the created_at value from the fresh_segments.interest_map table? Do you think these values are valid and why?
 
-1. How many users are there?
-2. How many cookies does each user have on average?
-3. What is the unique number of visits by all users per month?
-4. What is the number of events for each event type?
-5. What is the percentage of visits which have a purchase event?
-6. What is the percentage of visits which view the checkout page but do not have a purchase event?
-7. What are the top 3 pages by number of views?
-8. What is the number of views and cart adds for each product category?
-9. What are the top 3 products by purchases?
+## Interest Analysis
 
-
-## B. Product Funnel Analysis
-
-Using a single SQL query - create a new output table which has the following details:
-
-* How many times was each product viewed?
-* How many times was each product added to cart?
-* How many times was each product added to a cart but not purchased (abandoned)?
-* How many times was each product purchased?
-
-Additionally, create another table which further aggregates the data for the above points but this time for each product category instead of individual products.
-Use your 2 new output tables - answer the following questions:
-
-1. Which product had the most views, cart adds and purchases?
-2. Which product was most likely to be abandoned?
-3. Which product had the highest view to purchase percentage?
-4. What is the average conversion rate from view to cart add?
-5. What is the average conversion rate from cart add to purchase?
-
-
+1. Which interests have been present in all month_year dates in our dataset?
+2. Using this same total_months measure - calculate the cumulative percentage of all records starting at 14 months - which total_months value passes the 90% cumulative percentage value?
+3. If we were to remove all interest_id values which are lower than the total_months value we found in the previous question - how many total data points would we be removing?
+4. Does this decision make sense to remove these data points from a business perspective? Use an example where there are all 14 months present to a removed interest example for your arguments - think about what it means to have less months present from a segment perspective.
+5. After removing these interests - how many unique interests are there for each month?
