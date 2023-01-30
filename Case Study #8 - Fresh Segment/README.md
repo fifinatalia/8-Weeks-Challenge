@@ -11,11 +11,6 @@ Danny created Fresh Segments, a digital marketing agency that helps other busine
 
 Clients share their customer lists with the Fresh Segments team who then aggregate interest metrics and generate a single dataset worth of metrics for further analysis.
 
-## **Entity Relationship Diagram**
-
-![Untitled](https://user-images.githubusercontent.com/106369674/204490975-04132282-9fe8-4051-9fdd-c7db09844894.png)
-
-
 ## Data Exploration and Cleansing
 
 1. Update the fresh_segments.interest_metrics table by modifying the month_year column to be a date data type with the start of the month
