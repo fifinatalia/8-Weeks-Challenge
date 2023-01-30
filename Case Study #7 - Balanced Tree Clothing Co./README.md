@@ -9,11 +9,6 @@
 
 Danny, the CEO of this trendy fashion company has asked you to assist the team’s merchandising teams analyse their sales performance and generate a basic financial report to share with the wider business.
 
-## **Entity Relationship Diagram**
-
-![Untitled](https://user-images.githubusercontent.com/106369674/204490975-04132282-9fe8-4051-9fdd-c7db09844894.png)
-
-
 ## High Level Sales Analysis
   
 1. What was the total quantity sold for all products?
