@@ -28,6 +28,8 @@ Danny was sold on the idea, but he knew that pizza alone was not going to help h
 
 Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
 
+View my solution for this study case [here](https://github.com/fifinatalia/8-Weeks-Challenge/tree/main/Case%20Study%20%232%20-%20Pizza%20Runner).
+  
 -------------------------------------------------------------------------
 
 ## Case Study #3 - Foodie-Fi
@@ -38,6 +40,8 @@ Danny finds a few smart friends to launch his new startup Foodie-Fi in 2020 and 
 
 Danny created Foodie-Fi with a data driven mindset and wanted to ensure all future investment decisions and new features were decided using data. This case study focuses on using subscription style digital data to answer important business questions.
 
+View my solution for this study case [here](https://github.com/fifinatalia/8-Weeks-Challenge/tree/main/Case%20Study%20%233%20-%20Foodie%20Fi).
+  
 -------------------------------------------------------------------------
 
 ## Case Study #4 - Data Bank
@@ -50,7 +54,8 @@ Customers are allocated cloud data storage limits which are directly linked to h
 
 The management team at Data Bank want to increase their total customer base - but also need some help tracking just how much data storage their customers will need.
 
-
+View my solution for this study case [here](https://github.com/fifinatalia/8-Weeks-Challenge/tree/main/Case%20Study%20%234%20-%20Data%20Bank).
+  
 -------------------------------------------------------------------------
 
 ## Case Study #5 - Data Mart
@@ -61,6 +66,8 @@ Data Mart is Danny’s latest venture and after running international operations
 
 In June 2020 - large scale supply changes were made at Data Mart. All Data Mart products now use sustainable packaging methods in every single step from the farm all the way to the customer.
 
+View my solution for this study case [here](https://github.com/fifinatalia/8-Weeks-Challenge/tree/main/Case%20Study%20%235%20-%20Data%20Mart).
+  
 -------------------------------------------------------------------------
 
 ## Case Study #6 - Clique Bait
@@ -69,7 +76,8 @@ In June 2020 - large scale supply changes were made at Data Mart. All Data Mart 
 ### Business Task
 Clique Bait is not like your regular online seafood store - the founder and CEO Danny, was also a part of a digital data analytics team and wanted to expand his knowledge into the seafood industry!
 
-
+View my solution for this study case [here](https://github.com/fifinatalia/8-Weeks-Challenge/tree/main/Case%20Study%20%236%20-%20Clique%20Mart).
+  
 -------------------------------------------------------------------------
 
 ## Case Study #7 - Balanced Tree Clothing Co.
@@ -78,7 +86,8 @@ Clique Bait is not like your regular online seafood store - the founder and CEO 
 ### Business Task
 Danny, the CEO of this trendy fashion company has asked you to assist the team’s merchandising teams analyse their sales performance and generate a basic financial report to share with the wider business.
 
-
+View my solution for this study case [here](https://github.com/fifinatalia/8-Weeks-Challenge/tree/main/Case%20Study%20%237%20-%20Balanced%20Tree%20Clothing%20Co.)
+  
 -------------------------------------------------------------------------
 
 ## Case Study #8 - Fresh Segments
@@ -89,5 +98,5 @@ Danny created Fresh Segments, a digital marketing agency that helps other busine
 
 Clients share their customer lists with the Fresh Segments team who then aggregate interest metrics and generate a single dataset worth of metrics for further analysis.
 
+View my solution for this study case [here](https://github.com/fifinatalia/8-Weeks-Challenge/tree/main/Case%20Study%20%238%20-%20Fresh%20Segment).
 
--------------------------------------------------------------------------
