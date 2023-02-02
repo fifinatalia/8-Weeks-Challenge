@@ -209,7 +209,7 @@ UNION
 SELECT product_name,
   100 - ROUND(100 * purchases / cart_adds, 2) AS abandoned_rate
 FROM product_info
-ORDER BY 2 DESC
+ORDER BY product_category DESC
 LIMIT 1;
 
 -- 3. Which product had the highest view to purchase percentage?
